@@ -1,0 +1,1 @@
+This folder is intended to contain Jupyter Notebook analysis and model experimentation for the Traffic Prediction Management using Machine Learning project.

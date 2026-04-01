@@ -1,0 +1,1 @@
+This folder will contain screenshots, output visuals, graphs, and project architecture related to the Traffic Prediction Management using Machine Learning project.

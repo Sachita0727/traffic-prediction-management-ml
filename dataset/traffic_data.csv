@@ -1,0 +1,11 @@
+time,vehicle_count,speed,congestion_level
+08:00,120,35,High
+09:00,140,30,High
+10:00,95,45,Medium
+11:00,70,55,Low
+12:00,88,50,Medium
+13:00,110,40,High
+14:00,75,52,Low
+15:00,130,32,High
+16:00,145,28,High
+17:00,100,42,Medium
