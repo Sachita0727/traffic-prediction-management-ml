@@ -1,57 +1,50 @@
 # Traffic Prediction Management using Machine Learning
 
 ## Description
-This project focuses on predicting traffic conditions using Machine Learning techniques to support better traffic management and planning. The goal is to analyze traffic-related data and estimate traffic flow patterns for improved decision-making.
-
-## Objective
-The main objective of this project is to:
-- Predict traffic congestion trends
-- Improve traffic management efficiency
-- Support smart city transportation systems
-- Analyze traffic patterns using data-driven methods
-
-## Problem Statement
-Traffic congestion is a major issue in urban areas. This project aims to use Machine Learning to predict traffic conditions based on historical and input traffic data, which can help in traffic planning and route optimization.
-
-## Proposed Solution
-The system is designed to:
-- Collect traffic-related data
-- Process and analyze traffic patterns
-- Apply Machine Learning algorithms
-- Predict traffic flow / congestion levels
-- Assist in traffic management decisions
+This project predicts traffic congestion levels using Machine Learning based on traffic-related input features such as hour of day, vehicle count, and average speed.
 
 ## Features
-- Traffic flow prediction
-- Congestion analysis
-- Peak hour identification
-- Data visualization
-- Future traffic trend estimation
+- Predicts traffic as Low / Medium / High
+- Uses Machine Learning model
+- Simple interactive web interface using Streamlit
+- Beginner-friendly student project
 
 ## Technologies Used
 - Python
-- Machine Learning
 - Pandas
 - NumPy
-- Matplotlib
 - Scikit-learn
-- Jupyter Notebook
+- Streamlit
 
-## Project Structure
-- `dataset/` → Traffic dataset files
-- `notebooks/` → Jupyter notebook for ML analysis
-- `src/` → Python source code
-- `screenshots/` → Project screenshots / visuals
-- `report/` → Project report and documentation
+## Input Parameters
+- Hour of Day
+- Vehicle Count
+- Average Speed
 
-## Current Status
-This repository currently contains the project structure, starter implementation, and documentation. Further enhancements and full implementation can be added in future updates.
+## Output
+- Predicted Traffic Congestion Level
 
-## Future Scope
+## Project Files
+- `traffic_data.csv` → dataset
+- `train_model.py` → model training code
+- `app.py` → Streamlit app UI
+- `requirements.txt` → required libraries
+
+## How to Run
+1. Install required libraries:
+   `pip install -r requirements.txt`
+
+2. Train the model:
+   `python train_model.py`
+
+3. Run the app:
+   `streamlit run app.py`
+
+## Future Improvements
+- Add larger real-world traffic dataset
 - Improve model accuracy
-- Add real-time traffic data
-- Integrate dashboard for live prediction
-- Build a smart traffic monitoring system
+- Add graphical analysis
+- Add live traffic data integration
 
 ## Author
 Sachita Seth
